@@ -1,0 +1,41 @@
+.recomended-flex{
+  display: flex;
+  margin-left: 20rem;
+}
+
+.recomended-title{
+  margin-left: 20rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+@media screen and (max-width:900px) {
+  .recomended-flex{
+   margin-left: 5rem;
+  }
+
+  .recomended-title{
+    margin-left: 5rem;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+   .recomended-flex{
+    flex-direction: column;
+    gap: 1rem;
+   }
+}
+
+
+@media screen and (max-width:350px) {
+   .recomended-flex{
+    margin-left: 1rem;
+
+   }
+
+   .recomended-title{
+    margin-left: 1rem;
+   }
+}
